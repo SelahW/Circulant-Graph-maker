@@ -11,7 +11,7 @@ function Circ(n::Integer, j...)
     A = [firstrow;]
     while y < n
         append!(A,circshift(firstrow,y))
-        y+=1
+        y += 1
     end
     A = reshape(A,(n,n))
     G = Graph(A)
