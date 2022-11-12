@@ -10,6 +10,3 @@ j... is a tuple, so you can have multiple jumps, such as `Circ(10,1,2,3)`, etc.
 
 - [LinearAlgebra.jl](https://github.com/JuliaLang/julia/tree/master/stdlib/LinearAlgebra)
 
-##### TODO:
-##### Make a function to count number of spanning trees for given graph.
-
