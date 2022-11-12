@@ -19,5 +19,4 @@ function Circ(n::Integer, j...)
     nodelabel = 1:nv(G)
     nodelabelsize = nodesize
     gplot(G,layout = circular_layout,nodesize = nodesize, nodelabel = nodelabel)
-    gplot(G,layout = circular_layout,nodesize = nodesize, nodelabel = nodelabel)
 end
